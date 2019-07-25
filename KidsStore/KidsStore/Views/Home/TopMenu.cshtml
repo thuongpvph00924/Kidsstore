@@ -1,0 +1,28 @@
+﻿
+@model List<KidsStore.Model.EF.Menu>
+    <div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
+    <p> Chào mừng đến với KidsStore</p>
+@{
+        var session =(KidsStore.Common.UserLogin)Session[KidsStore.Common.CommonConstanst.USER_SESSION];
+}
+ @if (session == null)
+ {
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="@item.Link" target="@item.Target">@item.Text</a></li>
+        }
+    </ul>
+ }
+ else
+ {
+        <ul>
+            <li>Xin chào:@session.UserName</li>
+            <li>@Html.ActionLink("Thoát", "Logout", "User")</li>
+        </ul>
+    }
+</div>
+<div class="clear"></div>
+    <div class="clear"></div>
+
+

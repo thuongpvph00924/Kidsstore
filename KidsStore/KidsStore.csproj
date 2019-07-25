@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8EFAB0B-1324-4FE6-9F77-69A615A40B50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KidsStore</RootNamespace>
+    <AssemblyName>KidsStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.7.0.6\lib\net45\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assest\Admin\js\plugin\adapters\jquery.js" />
+    <Content Include="Assest\Admin\js\plugin\build-config.js" />
+    <Content Include="Assest\Admin\js\plugin\CHANGES.md" />
+    <Content Include="Assest\Admin\js\plugin\ckeditor.js" />
+    <Content Include="Assest\Admin\js\plugin\config.js" />
+    <Content Include="Assest\Admin\js\plugin\contents.css" />
+    <Content Include="Assest\Admin\js\plugin\lang\af.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ar.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\az.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\bg.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\bn.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\bs.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ca.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\cs.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\cy.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\da.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\de-ch.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\de.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\el.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\en-au.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\en-ca.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\en-gb.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\en.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\eo.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\es-mx.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\es.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\et.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\eu.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\fa.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\fi.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\fo.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\fr-ca.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\fr.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\gl.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\gu.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\he.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\hi.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\hr.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\hu.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\id.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\is.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\it.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ja.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ka.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\km.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ko.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ku.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\lt.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\lv.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\mk.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\mn.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ms.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\nb.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\nl.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\no.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\oc.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\pl.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\pt-br.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\pt.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ro.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ru.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\si.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sk.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sl.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sq.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sr-latn.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sr.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\sv.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\th.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\tr.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\tt.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\ug.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\uk.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\vi.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\zh-cn.js" />
+    <Content Include="Assest\Admin\js\plugin\lang\zh.js" />
+    <Content Include="Assest\Admin\js\plugin\LICENSE.md" />
+    <Content Include="Assest\Admin\js\plugin\plugins\about\dialogs\about.js" />
+    <Content Include="Assest\Admin\js\plugin\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="Assest\Admin\js\plugin\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Assest\Admin\js\plugin\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Assest\Admin\js\plugin\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Assest\Admin\js\plugin\plugins\icons.png" />
+    <Content Include="Assest\Admin\js\plugin\plugins\icons_hidpi.png" />
+    <Content Include="Assest\Admin\js\plugin\plugins\link\dialogs\anchor.js" />
+    <Content Include="Assest\Admin\js\plugin\plugins\link\dialogs\link.js" />
+    <Content Include="Assest\Admin\js\plugin\plugins\link\images\anchor.png" />
+    <Content Include="Assest\Admin\js\plugin\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="Assest\Admin\js\plugin\README.md" />
+    <Content Include="Assest\Admin\js\plugin\samples\css\samples.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\github-top.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\header-bg.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\header-separator.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\logo.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\logo.svg" />
+    <Content Include="Assest\Admin\js\plugin\samples\img\navigation-tip.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\index.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\js\sample.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\js\sf.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\ajax.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\api.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\appendto.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\assets\inlineall\logo.png" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\assets\sample.jpg" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\assets\uilanguages\languages.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\datafiltering.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\dialog\assets\my_dialog.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\dialog\dialog.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\divreplace.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\enterkey\enterkey.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\index.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\inlineall.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\inlinebycode.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\inlinetextarea.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\jquery.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\readonly.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\replacebyclass.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\replacebycode.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\sample.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\sample.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\tabindex.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\toolbar\toolbar.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\uicolor.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\uilanguages.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\wysiwygarea\fullpage.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\xhtmlstyle.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\css\fontello.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\index.html" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\dialog.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\dialog_ie.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\dialog_ie8.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\dialog_iequirks.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\editor.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\editor_gecko.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\editor_ie.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\editor_ie8.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\editor_iequirks.css" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\icons.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\icons_hidpi.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\arrow.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\close.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\hidpi\close.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\hidpi\lock-open.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\hidpi\lock.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\hidpi\refresh.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\lock-open.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\lock.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\refresh.png" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\images\spinner.gif" />
+    <Content Include="Assest\Admin\js\plugin\styles.js" />
+    <Content Include="Assest\Client\css\animate.min.css" />
+    <Content Include="Assest\Client\css\bootstrap.css" />
+    <Content Include="Assest\Client\css\Controller\Base.js" />
+    <Content Include="Assest\Client\css\flexslider.css" />
+    <Content Include="Assest\Client\css\flexslider1.css" />
+    <Content Include="Assest\Client\css\jquery-ui.css" />
+    <Content Include="Assest\Client\css\style.css" />
+    <Content Include="Assest\Client\css\StyleSheet1.css" />
+    <Content Include="Assest\Client\font\glyphicons-halflings-regular.svg" />
+    <Content Include="Assest\Client\images\1.jpg" />
+    <Content Include="Assest\Client\images\2.jpg" />
+    <Content Include="Assest\Client\images\3.jpg" />
+    <Content Include="Assest\Client\images\6dbec0a88cf82a8a801c8c66b8826968.jpg" />
+    <Content Include="Assest\Client\images\b1.png" />
+    <Content Include="Assest\Client\images\b2.png" />
+    <Content Include="Assest\Client\images\b3.png" />
+    <Content Include="Assest\Client\images\banner_1f.jpg" />
+    <Content Include="Assest\Client\images\cropped-baobab-aw14-banner-1-jpg.png" />
+    <Content Include="Assest\Client\images\full_collection_banner-2_1024x1024.jpg" />
+    <Content Include="Assest\Client\images\g1.jpg" />
+    <Content Include="Assest\Client\images\g10.jpg" />
+    <Content Include="Assest\Client\images\g11.jpg" />
+    <Content Include="Assest\Client\images\g12.jpg" />
+    <Content Include="Assest\Client\images\g2.jpg" />
+    <Content Include="Assest\Client\images\g3.jpg" />
+    <Content Include="Assest\Client\images\g4.jpg" />
+    <Content Include="Assest\Client\images\g5.jpg" />
+    <Content Include="Assest\Client\images\g6.jpg" />
+    <Content Include="Assest\Client\images\g7.jpg" />
+    <Content Include="Assest\Client\images\g8.jpg" />
+    <Content Include="Assest\Client\images\g9.jpg" />
+    <Content Include="Assest\Client\images\img1.jpg" />
+    <Content Include="Assest\Client\images\img2.jpg" />
+    <Content Include="Assest\Client\images\img3.jpg" />
+    <Content Include="Assest\Client\images\into.png" />
+    <Content Include="Assest\Client\images\logo.jpg" />
+    <Content Include="Assest\Client\images\move-up.png" />
+    <Content Include="Assest\Client\images\s1.jpg" />
+    <Content Include="Assest\Client\images\s2.jpg" />
+    <Content Include="Assest\Client\images\s3.jpg" />
+    <Content Include="Assest\Client\images\social-icons.png" />
+    <Content Include="Assest\Client\images\star.png" />
+    <Content Include="Assest\Client\images\star1.png" />
+    <Content Include="Assest\Client\images\t1.png" />
+    <Content Include="Assest\Client\images\t2.png" />
+    <Content Include="Assest\Client\images\t3.png" />
+    <Content Include="Assest\Client\images\t4.png" />
+    <Content Include="Assest\Client\images\tick.png" />
+    <Content Include="Assest\Client\images\Untitled-1.jpg" />
+    <Content Include="Assest\Client\js\bootstrap-social.css" />
+    <Content Include="Assest\Client\js\bootstrap.js" />
+    <Content Include="Assest\Client\js\easing.js" />
+    <Content Include="Assest\Client\js\imagezoom.js" />
+    <Content Include="Assest\Client\js\jquery-1.11.1.min.js" />
+    <Content Include="Assest\Client\js\jquery-ui.js" />
+    <Content Include="Assest\Client\js\jquery.countdown.min.js" />
+    <Content Include="Assest\Client\js\jquery.flexslider.js" />
+    <Content Include="Assest\Client\js\jquery.jscrollpane.min.js" />
+    <Content Include="Assest\Client\js\jquery.mousewheel.js" />
+    <Content Include="Assest\Client\js\main.js" />
+    <Content Include="Assest\Client\js\modernizr.custom.js" />
+    <Content Include="Assest\Client\js\move-top.js" />
+    <Content Include="Assest\Client\js\simpleCart.min.js" />
+    <Content Include="Assest\Client\js\uisearch.js" />
+    <Content Include="Assest\Client\js\wow.min.js" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ContenController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CustomerController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
+    <Compile Include="Areas\Admin\Models\LoginModel.cs" />
+    <Compile Include="Common\CommonConstanst.cs" />
+    <Compile Include="Common\UserLogin.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BEController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OderController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SarchController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\RegisterModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_UserLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Left_Menu.cshtml" />
+    <Content Include="Views\Share\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\MainMenu.cshtml" />
+    <Content Include="Views\Home\TopMenu.cshtml" />
+    <Content Include="Views\Home\MenuFooter.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Assest\Client\font\glyphicons-halflings-regular.eot" />
+    <Content Include="Assest\Client\font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assest\Client\font\glyphicons-halflings-regular.woff" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\BE\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Login\Index.cshtml" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\assets\posteddata.php" />
+    <Content Include="Assest\Admin\js\plugin\samples\old\sample_posteddata.php" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\config.json" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\fontello.eot" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\fontello.ttf" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\font\fontello.woff" />
+    <Content Include="Assest\Admin\js\plugin\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <Content Include="Assest\Admin\js\plugin\skins\moono-lisa\readme.md" />
+    <Content Include="Areas\Admin\Views\Customer\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Views\Base\" />
+    <Folder Include="Areas\Admin\Views\Conten\" />
+    <Folder Include="Assest\Admin\data\" />
+    <Folder Include="Assest\Admin\dist\" />
+    <Folder Include="Assest\Admin\less\" />
+    <Folder Include="Assest\Admin\vendor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KidsStore.Model\KidsStore.Model.csproj">
+      <Project>{26c99c17-8bb5-4e5f-bd40-515f37bed774}</Project>
+      <Name>KidsStore.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54497</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54497/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

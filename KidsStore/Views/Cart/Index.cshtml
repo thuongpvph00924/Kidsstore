@@ -1,0 +1,55 @@
+﻿@using KidsStore.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+
+
+<div class="table-responsive container">
+    <h3>THÔNG TIN GIỎ HÀNG</h3>
+    <hr />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Mã SP</td>
+                <td>Tên SP</td>
+                <td>Ảnh SP</td>
+                <td>Số lượng</td>
+                <td>Đơn giá</td>
+                <td>Thành tiền</td>
+            </tr>
+        </thead>
+        @{
+            double tongtien = 0;
+            List<CartItem> listcart = (List<CartItem>)Session["GioHang"];
+        }
+        <tbody class="table table-bordered">
+            @if (listcart != null)//Nếu giỏ hàng khác rỗng
+            {
+                //Hiển thị thông tin giỏ hàng
+                foreach (var item in listcart)
+                {
+                    <tr>
+                        <td>@item.Product.ID</td>
+                        <td>@item.Product.Name</td>
+                        <td><img src="@item.Product.Image" width="100" /></td>
+                        <td><input type="text" class="quantity" value="@item.Quantity" /></td>
+                        <td>@item.Product.Price.GetValueOrDefault(0)</td>
+                        <td>@(item.Product.Price.GetValueOrDefault(0) * item.Quantity)</td>
+                    </tr>
+                }
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5"><span>Tổng tiền thanh toán: @tongtien</span></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p class="pull-right">
+        <input type="button" value="Tiếp tục mua hàng" class="btn btn-info" />
+        <input type="button" value="Đặt hàng" class="btn btn-danger" onclick="location.href='@Url.Action("Index","Cart")'" />
+    </p>
+</div>
+

@@ -1,0 +1,193 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title KidsStore</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="KidsStore" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--//for-mobile-apps -->
+    <!--Custom Theme files -->
+    <link href="~/Assest/Client/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="~/Assest/Client/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="~/Assest/Client/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <!--//Custom Theme files -->
+    <!--js-->
+    <link href="~/Assest/Client/css/jquery-ui.css" rel="stylesheet" />
+    <script src="~/Assest/Client/js/jquery-ui.js"></script>
+    <script src="~/Assest/Client/js/Scripts/jquery-1.11.1.min.js"></script>
+
+    <script src="~/Assest/Client/js/modernizr.custom.js"></script>
+    <!--//js-->
+    <!--cart-->
+
+    <script src="~/Assest/Client/js/simpleCart.min.js"></script>
+    <!--cart-->
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css'>
+    <!--web-fonts-->
+    <!--animation-effect-->
+
+    <link href="~/Assest/Client/css/animate.min.css" rel="stylesheet" />
+
+    <script src="~/Assest/Client/js/wow.min.js"></script>
+    <script>
+	 new WOW().init();
+    </script>
+    <!--//animation-effect-->
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript" src="~/Assest/Client/js/Scripts/move-top.js"></script>
+
+    <script type="text/javascript" src="~/Assest/Client/js/easing.js"></script>
+
+    <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+    </script>
+    <!--//end-smooth-scrolling-->
+</head>
+<body>
+
+    <!--header-->
+    <div class="header">
+        <div class="top-header navbar navbar-default">
+            <!--header-one-->
+            <div class="container">
+                @{Html.RenderAction("TopMenu", "Home");}
+                <div class="nav navbar-nav navbar-right social-icons wow fadeInRight animated" data-wow-delay=".5s">
+                    <ul>
+                        <li><a href="#"> </a></li>
+                        <li><a href="#" class="pin"> </a></li>
+                        <li><a href="#" class="in"> </a></li>
+                        <li><a href="#" class="be"> </a></li>
+                        <li><a href="#" class="you"> </a></li>
+                        <li><a href="#" class="vimeo"> </a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="header-two navbar navbar-default">
+            <!--header-two-->
+            <div class="container">
+                <div class="nav navbar-nav header-two-left">
+                    <ul>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1644 638 859</li>
+                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="#">Kidsstore@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
+                    Index <h1><a href="@Url.Action("Index","Home")">Kids <b>Store</b><span class="tag">Thế giới của bé </span> </a></h1>
+                </div>
+                <div class="nav navbar-nav navbar-right header-two-right">
+                    <div class="header-right my-account">
+                        <a href="contact.html"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Liên Hệ</a>
+                    </div>
+                    <div class="header-right cart">
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                        <h4>
+                            <a href="checkout.html">
+                                <span class="simpleCart_total"> 0.00vnd </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)
+                            </a>
+                        </h4>
+                        <div class="cart-box">
+                            <p><a href="javascript:;" class="simpleCart_empty">Giỏ Hàng</a></p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="top-nav navbar navbar-default">
+            <!--header-three-->
+            <div class="container">
+                <nav class="navbar" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!--navbar-header-->
+                    @{Html.RenderAction("MainMenu", "Home");}
+                    <!--//navbar-header-->
+
+                    <div class="search-bar-agileits">
+                        <form name="timkiem">
+                            <div class="form-group form-inline">
+                                <input placeholder="Nhập từ khóa" type="text" name="searchkey" class="form-control form-inline" />
+                                <input type="submit" name="submit" value="Tìm kiếm" class="form-control" />
+                            </div>
+                        </form>
+                     </div>
+                        
+                            <!--header-three-->
+                            
+                       </nav>
+                    
+                        <!--//navbar-header-->
+                    
+                </div>
+            </div>
+        </div>
+        
+    
+    
+    <!--//header-->
+    <!--banner-->
+    @RenderSection("slide", false)
+    <!--//banner-->
+    <!--new-->
+    <!--//new-->
+    <!--gallery-->
+    @RenderBody()
+    <!--//trend-->
+    <!--footer-->
+    @{Html.RenderAction("MenuFooter", "Home");}
+    <!--//footer-->
+    <!--search jQuery-->
+    <script src="~/Assest/Client/css/Controller/Base.js"></script>
+    <script src="~/Assest/Client/js/main.js"></script>
+    <!--//search jQuery-->
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!--//smooth-scrolling-of-move-up-->
+    <!--Bootstrap core JavaScript
+    ================================================== -->
+    <!--Placed at the end of the document so the pages load faster -->
+
+    <script src="~/Assest/Client/js/bootstrap.js"></script>
+</body>
+
+</html>

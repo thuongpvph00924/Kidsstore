@@ -1,0 +1,16 @@
+@foreach(var item in ListNewProduct)
+            {
+                var url = "/san-pham" + item.MetaTitle + "-" + item.ID;
+            <div class="col-md-3 new-grid simpleCart_shelfItem wow flipInY animated" data-wow-delay=".5s">
+                <div class="new-top">
+                    <a href="@url"><img src="@item.Image" class="img-responsive" alt="@item.Name" /></a>
+                   
+
+                    <div class="new-text">
+                        <ul>
+                            <li><a class="item_add" href="@Url.Action("Index","Cart")"> Thêm vào giỏ hàng</a></li>
+                            <li><a href="@Url.Action("Index","About")">Xem chi tiết </a></li>
+                            <li><a href="@Url.Action("Index","BE")">Sản Phẩm Khác </a></li>
+                        </ul>
+                    </div>
+                </div>

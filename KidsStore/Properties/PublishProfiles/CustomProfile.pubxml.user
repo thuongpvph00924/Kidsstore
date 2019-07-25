@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>C:\Users\PIC\Desktop\New folder (2)</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>04/02/2019 15:01:01</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Login/Index.cshtml">
+      <publishTime>06/18/2018 06:06:33</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Left_Menu.cshtml">
+      <publishTime>04/02/2019 14:35:56</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_UserLayout.cshtml">
+      <publishTime>04/02/2019 12:50:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>06/16/2018 20:20:42</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/adapters/jquery.js">
+      <publishTime>06/18/2018 06:27:07</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/build-config.js">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/CHANGES.md">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/ckeditor.js">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/config.js">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/contents.css">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/af.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ar.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/az.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/bg.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/bn.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/bs.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ca.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/cs.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/cy.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/da.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/de-ch.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/de.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/el.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/en-au.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/en-ca.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/en-gb.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/en.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/eo.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/es-mx.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/es.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/et.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/eu.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/fa.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/fi.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/fo.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/fr-ca.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/fr.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/gl.js">
+      <publishTime>06/18/2018 06:27:10</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/gu.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/he.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/hi.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/hr.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/hu.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/id.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/is.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/it.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ja.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ka.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/km.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ko.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ku.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/lt.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/lv.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/mk.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/mn.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ms.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/nb.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/nl.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/no.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/oc.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/pl.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/pt-br.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/pt.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ro.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ru.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/si.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sk.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sl.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sq.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sr-latn.js">
+      <publishTime>06/18/2018 06:27:11</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sr.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/sv.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/th.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/tr.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/tt.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/ug.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/uk.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/vi.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/zh-cn.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/lang/zh.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/LICENSE.md">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/about/dialogs/about.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/clipboard/dialogs/paste.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/dialog/dialogDefinition.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/icons.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/icons_hidpi.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/link/dialogs/anchor.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/link/dialogs/link.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/link/images/anchor.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/plugins/link/images/hidpi/anchor.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/README.md">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/css/samples.css">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/github-top.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/header-bg.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/header-separator.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/logo.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/logo.svg">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/img/navigation-tip.png">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/index.html">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/js/sample.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/js/sf.js">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/ajax.html">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/api.html">
+      <publishTime>06/18/2018 06:27:12</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/appendto.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/assets/inlineall/logo.png">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/assets/outputxhtml/outputxhtml.css">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/assets/posteddata.php">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/assets/sample.jpg">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/assets/uilanguages/languages.js">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/datafiltering.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/dialog/assets/my_dialog.js">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/dialog/dialog.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/divreplace.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/enterkey/enterkey.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/index.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/inlineall.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/inlinebycode.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/inlinetextarea.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/jquery.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/readonly.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/replacebyclass.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/replacebycode.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/sample.css">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/sample.js">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/sample_posteddata.php">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/tabindex.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/toolbar/toolbar.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/uicolor.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/uilanguages.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/wysiwygarea/fullpage.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/old/xhtmlstyle.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/css/fontello.css">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/config.json">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/fontello.eot">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/fontello.svg">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/fontello.ttf">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/fontello.woff">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/font/LICENSE.txt">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/index.html">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/js/fulltoolbareditor.js">
+      <publishTime>06/18/2018 06:27:13</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/js/toolbarmodifier.js">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/js/toolbartextmodifier.js">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/codemirror.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/javascript.js">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/LICENSE">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/neo.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/show-hint.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/samples/toolbarconfigurator/lib/codemirror/show-hint.js">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/dialog.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/dialog_ie.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/editor.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/editor_gecko.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/editor_ie.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/editor_ie8.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/icons.png">
+      <publishTime>06/18/2018 06:27:14</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/arrow.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/close.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/lock-open.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/lock.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/refresh.png">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/images/spinner.gif">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/skins/moono-lisa/readme.md">
+      <publishTime>06/18/2018 06:27:15</publishTime>
+    </File>
+    <File Include="Assest/Admin/js/plugin/styles.js">
+      <publishTime>06/18/2018 06:26:54</publishTime>
+    </File>
+    <File Include="Assest/Client/css/animate.min.css">
+      <publishTime>06/17/2018 08:28:53</publishTime>
+    </File>
+    <File Include="Assest/Client/css/bootstrap.css">
+      <publishTime>06/17/2018 22:38:46</publishTime>
+    </File>
+    <File Include="Assest/Client/css/Controller/Base.js">
+      <publishTime>06/18/2018 00:04:57</publishTime>
+    </File>
+    <File Include="Assest/Client/css/flexslider.css">
+      <publishTime>06/17/2018 08:28:53</publishTime>
+    </File>
+    <File Include="Assest/Client/css/flexslider1.css">
+      <publishTime>06/17/2018 08:28:53</publishTime>
+    </File>
+    <File Include="Assest/Client/css/jquery-ui.css">
+      <publishTime>06/17/2018 08:28:54</publishTime>
+    </File>
+    <File Include="Assest/Client/css/style.css">
+      <publishTime>06/17/2018 09:35:36</publishTime>
+    </File>
+    <File Include="Assest/Client/css/StyleSheet1.css">
+      <publishTime>06/17/2018 23:19:18</publishTime>
+    </File>
+    <File Include="Assest/Client/font/glyphicons-halflings-regular.eot">
+      <publishTime>06/17/2018 08:29:08</publishTime>
+    </File>
+    <File Include="Assest/Client/font/glyphicons-halflings-regular.svg">
+      <publishTime>06/17/2018 08:29:08</publishTime>
+    </File>
+    <File Include="Assest/Client/font/glyphicons-halflings-regular.ttf">
+      <publishTime>06/17/2018 08:29:08</publishTime>
+    </File>
+    <File Include="Assest/Client/font/glyphicons-halflings-regular.woff">
+      <publishTime>06/17/2018 08:29:08</publishTime>
+    </File>
+    <File Include="Assest/Client/images/1.jpg">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/2.jpg">
+      <publishTime>06/17/2018 05:27:24</publishTime>
+    </File>
+    <File Include="Assest/Client/images/3.jpg">
+      <publishTime>06/17/2018 05:27:24</publishTime>
+    </File>
+    <File Include="Assest/Client/images/6dbec0a88cf82a8a801c8c66b8826968.jpg">
+      <publishTime>06/17/2018 05:04:57</publishTime>
+    </File>
+    <File Include="Assest/Client/images/b1.png">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/b2.png">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/b3.png">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/banner_1f.jpg">
+      <publishTime>06/17/2018 05:04:57</publishTime>
+    </File>
+    <File Include="Assest/Client/images/cropped-baobab-aw14-banner-1-jpg.png">
+      <publishTime>06/17/2018 05:04:57</publishTime>
+    </File>
+    <File Include="Assest/Client/images/full_collection_banner-2_1024x1024.jpg">
+      <publishTime>06/17/2018 05:04:57</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g1.jpg">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g10.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g11.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g12.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g2.jpg">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g3.jpg">
+      <publishTime>06/17/2018 08:29:15</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g4.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g5.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g6.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g7.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g8.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/g9.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/img1.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/img2.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/img3.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/into.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/logo.jpg">
+      <publishTime>06/17/2018 07:53:36</publishTime>
+    </File>
+    <File Include="Assest/Client/images/move-up.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/s1.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/s2.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/s3.jpg">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/social-icons.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/star.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/star1.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/t1.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/t2.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/t3.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/t4.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/tick.png">
+      <publishTime>06/17/2018 08:29:16</publishTime>
+    </File>
+    <File Include="Assest/Client/images/Untitled-1.jpg">
+      <publishTime>06/17/2018 05:27:24</publishTime>
+    </File>
+    <File Include="Assest/Client/js/bootstrap-social.css">
+      <publishTime>03/08/2019 17:45:15</publishTime>
+    </File>
+    <File Include="Assest/Client/js/bootstrap.js">
+      <publishTime>06/17/2018 08:29:22</publishTime>
+    </File>
+    <File Include="Assest/Client/js/easing.js">
+      <publishTime>06/17/2018 08:29:24</publishTime>
+    </File>
+    <File Include="Assest/Client/js/imagezoom.js">
+      <publishTime>06/17/2018 08:29:24</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery-1.11.1.min.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery-ui.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery.countdown.min.js">
+      <publishTime>03/08/2019 16:52:40</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery.flexslider.js">
+      <publishTime>03/08/2019 16:52:49</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery.jscrollpane.min.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/jquery.mousewheel.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/main.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/modernizr.custom.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/move-top.js">
+      <publishTime>06/17/2018 08:29:25</publishTime>
+    </File>
+    <File Include="Assest/Client/js/simpleCart.min.js">
+      <publishTime>06/17/2018 08:29:26</publishTime>
+    </File>
+    <File Include="Assest/Client/js/uisearch.js">
+      <publishTime>06/17/2018 08:29:26</publishTime>
+    </File>
+    <File Include="Assest/Client/js/wow.min.js">
+      <publishTime>06/17/2018 08:29:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/03/2015 17:43:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/03/2015 17:43:42</publishTime>
+    </File>
+    <File Include="bin/Facebook.dll">
+      <publishTime>04/13/2015 15:48:00</publishTime>
+    </File>
+    <File Include="bin/KidsStore.dll">
+      <publishTime>04/05/2019 20:19:10</publishTime>
+    </File>
+    <File Include="bin/KidsStore.Model.dll">
+      <publishTime>04/02/2019 15:24:10</publishTime>
+    </File>
+    <File Include="bin/KidsStore.Model.dll.config">
+      <publishTime>06/18/2018 05:53:58</publishTime>
+    </File>
+    <File Include="bin/KidsStore.Model.pdb">
+      <publishTime>04/02/2019 15:24:10</publishTime>
+    </File>
+    <File Include="bin/KidsStore.pdb">
+      <publishTime>04/05/2019 20:19:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>06/18/2018 00:47:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/16/2018 20:19:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/08/2019 17:32:18</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>03/15/2019 20:55:39</publishTime>
+    </File>
+    <File Include="Views/BE/Index.cshtml">
+      <publishTime>03/15/2019 20:55:38</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>03/15/2019 20:55:40</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/15/2019 20:55:44</publishTime>
+    </File>
+    <File Include="Views/Home/MainMenu.cshtml">
+      <publishTime>03/15/2019 20:55:42</publishTime>
+    </File>
+    <File Include="Views/Home/MenuFooter.cshtml">
+      <publishTime>03/15/2019 20:55:42</publishTime>
+    </File>
+    <File Include="Views/Home/TopMenu.cshtml">
+      <publishTime>03/08/2019 17:15:45</publishTime>
+    </File>
+    <File Include="Views/Share/_Layout.cshtml">
+      <publishTime>04/05/2019 20:10:07</publishTime>
+    </File>
+    <File Include="Views/User/Login.cshtml">
+      <publishTime>03/15/2019 20:55:41</publishTime>
+    </File>
+    <File Include="Views/User/Register.cshtml">
+      <publishTime>06/17/2018 22:31:05</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>06/16/2018 20:19:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/02/2019 16:07:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

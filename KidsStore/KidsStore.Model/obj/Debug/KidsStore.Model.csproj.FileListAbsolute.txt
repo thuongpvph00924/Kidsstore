@@ -1,0 +1,10 @@
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll.config
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.xml
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csprojResolveAssemblyReference.cache

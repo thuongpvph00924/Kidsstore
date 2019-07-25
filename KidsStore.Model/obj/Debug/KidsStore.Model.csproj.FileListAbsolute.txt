@@ -1,0 +1,49 @@
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll.config
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.xml
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.xml
+C:\Users\PIC\Desktop\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.xml
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll.config
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.pdb
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.xml
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.xml
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.xml
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csproj.CoreCompileInputs.cache
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csproj.CopyComplete
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.pdb
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csprojAssemblyReference.cache
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\Facebook.dll
+D:\Tài Liệu\THẦY TIỆP\KidsStore\KidsStore.Model\bin\Debug\Facebook.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll.config
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\Facebook.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\PagedList.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\Facebook.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\PagedList.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csproj.CoreCompileInputs.cache
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csproj.CopyComplete
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.dll
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.pdb
+C:\Users\PIC\Desktop\KidsStore\KidsStore\KidsStore.Model\obj\Debug\KidsStore.Model.csprojAssemblyReference.cache

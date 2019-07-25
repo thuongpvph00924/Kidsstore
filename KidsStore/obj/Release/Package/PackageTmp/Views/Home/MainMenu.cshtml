@@ -1,0 +1,23 @@
+﻿
+@model List<KidsStore.Model.EF.Menu>
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav top-nav-info">
+        @foreach (var item in Model)
+        {
+            <li><a href="@item.Link" target="@item.Target">@item.Text</a></li>
+          
+        }
+
+    </ul>
+    <div class="clearfix"> </div>
+   
+   
+</div>
+
+
+
+
+
+
+
